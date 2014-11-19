@@ -1,0 +1,43 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Project-Id-Version: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"X-Generator: Poedit 1.6.10\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Language: en_US\n"
+
+#: index.html
+msgid "Abierto"
+msgstr "open"
+
+#: index.html
+msgid "Adios"
+msgstr "bye"
+
+#: index.html
+msgid "Hello"
+msgstr "Hi"
+
+#: index.html
+msgid "Hola {{ name }} que asé en {{ sitio }}"
+msgstr "hello { name }} Welcome{{ sitio }}"
+
+#: index.html
+msgid "Test"
+msgstr "test"
+
+#: index.html
+msgid "one task"
+msgid_plural "{{count}} tasks"
+msgstr[0] "one task"
+msgstr[1] "{{count}} tasks"
+
+#: index.html
+msgid "plh_nombre"
+msgstr "Write your name"

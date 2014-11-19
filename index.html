@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html ng-app="app">
+<head>
+    <title></title>
+    <meta charset="utf-8">
+    <script src="bower_components/angular/angular.min.js"></script>
+    <script src="bower_components/angular-gettext/dist/angular-gettext.min.js"></script>
+    <script src="app.js"></script>
+    <script src="translations.js"></script>
+</head>
+<body ng-controller="langCtrl">
+ 
+    <select ng-model="lang" ng-options="lang for lang in langs" ng-change="updateLang()">
+        Escoge un idioma
+    </select>
+    <p translate>Test</p>
+ 
+    <p translate>Hello</p>
+ 
+    <p translate>Adios</p>
+ 
+    <p translate>Hola {{ name }} que asé en {{ sitio }}</p>
+ 
+    <input type="text" placeholder="{{'plh_nombre'|translate}}">
+ 
+    <p translate translate-n="count" translate-plural="{{count}} tasks">one task</p>
+ 
+    <p translate>Abierto</p>
+</body>
+</html>

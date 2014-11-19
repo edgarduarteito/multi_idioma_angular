@@ -1,0 +1,35 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Project-Id-Version: \n"
+
+#: index.html
+msgid "Abierto"
+msgstr ""
+
+#: index.html
+msgid "Adios"
+msgstr ""
+
+#: index.html
+msgid "Hello"
+msgstr ""
+
+#: index.html
+msgid "Hola {{ name }} que asé en {{ sitio }}"
+msgstr ""
+
+#: index.html
+msgid "Test"
+msgstr ""
+
+#: index.html
+msgid "one task"
+msgid_plural "{{count}} tasks"
+msgstr[0] ""
+msgstr[1] ""
+
+#: index.html
+msgid "plh_nombre"
+msgstr ""
